@@ -20,7 +20,7 @@ function MyAjaxFunc() {
 		 document.getElementById("demo").innerHTML = this.status;
 	}
   };
-  xhttp.open("POST", "/ajaxGet/get_demo.php?fname=henry&lname=Ford", true);
+  xhttp.open("GET", "/ajaxGet/get_demo.php?fname=henry&lname=Ford", true);
  
   xhttp.send();
 
